@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hlmtiga"
+    tools:context=".hlmdua">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:id="@+id/namamerk"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5D6BAF"
+            android:text="Motor Ini"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+        <GridLayout
+            android:layout_marginTop="30dp"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:elevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:id="@+id/kartu1"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/gambar1"
+                        android:src="@drawable/hdbeatcbsiss"
+                        android:layout_width="120dp"
+                        android:layout_height="90dp"/>
+
+                    <TextView
+                        android:id="@+id/nama1"
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:text="Beat CBSISS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/harga1"
+                        android:layout_marginTop="1dp"
+                        android:textColor="#008000"
+                        android:textSize="14sp"
+                        android:text="RP. 20.000.000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:elevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:id="@+id/kartu2"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/gambar2"
+                        android:src="@drawable/hdbeatcbsiss"
+                        android:layout_width="120dp"
+                        android:layout_height="90dp"/>
+
+                    <TextView
+                        android:id="@+id/nama2"
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:text="Beat CBSISS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/harga2"
+                        android:layout_marginTop="1dp"
+                        android:textColor="#008000"
+                        android:textSize="14sp"
+                        android:text="RP. 20.000.000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:elevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:id="@+id/kartu3"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/gambar3"
+                        android:src="@drawable/hdbeatcbsiss"
+                        android:layout_width="120dp"
+                        android:layout_height="90dp"/>
+
+                    <TextView
+                        android:id="@+id/nama3"
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:text="Beat CBSISS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/harga3"
+                        android:layout_marginTop="1dp"
+                        android:textColor="#008000"
+                        android:textSize="14sp"
+                        android:text="RP. 20.000.000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:elevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:id="@+id/kartu4"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/gambar4"
+                        android:src="@drawable/hdbeatcbsiss"
+                        android:layout_width="120dp"
+                        android:layout_height="90dp"/>
+
+                    <TextView
+                        android:id="@+id/nama4"
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:text="Beat CBSISS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/harga4"
+                        android:layout_marginTop="1dp"
+                        android:textColor="#008000"
+                        android:textSize="14sp"
+                        android:text="RP. 20.000.000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:elevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:id="@+id/kartu5"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/gambar5"
+                        android:src="@drawable/hdbeatcbsiss"
+                        android:layout_width="120dp"
+                        android:layout_height="90dp"/>
+
+                    <TextView
+                        android:id="@+id/nama5"
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:text="Beat CBSISS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/harga5"
+                        android:layout_marginTop="1dp"
+                        android:textColor="#008000"
+                        android:textSize="14sp"
+                        android:text="RP. 20.000.000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:elevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:id="@+id/kartu6"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/gambar6"
+                        android:src="@drawable/hdbeatcbsiss"
+                        android:layout_width="120dp"
+                        android:layout_height="90dp"/>
+
+                    <TextView
+                        android:id="@+id/nama6"
+                        android:layout_marginTop="12dp"
+                        android:textSize="18sp"
+                        android:text="Beat CBSISS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/harga6"
+                        android:layout_marginTop="1dp"
+                        android:textColor="#008000"
+                        android:textSize="14sp"
+                        android:text="RP. 20.000.000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#ffff"
+            android:textColor="#5D6BAF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:onClick="gokembali"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
